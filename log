@@ -95,3 +95,9 @@ exercises.c:33:28: error: ‘cpySize’ is used uninitialized [-Werror=uninitial
 cc1: all warnings being treated as errors
 Compilation failed
 e96815a
+Thu 14 Mar 2024 02:52:37 PM UTC: 
+ exercises.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+ tests:  0|6
+total_score: 10/70
+0baf859
