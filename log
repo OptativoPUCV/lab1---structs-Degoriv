@@ -333,3 +333,15 @@ exercises.c:58:72: error: invalid operands to binary * (have ‘int *’ and ‘
       |                                                                   int *
 Compilation failed
 eb0a090
+Thu 14 Mar 2024 09:32:22 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:57:72: error: invalid operands to binary * (have ‘int *’ and ‘long unsigned int’)
+   57 |                                 newArr = realloc(newArr, (newSize + 1) * sizeof(int));
+      |                                                          ~~~~~~~~~~~~~ ^
+      |                                                                   |
+      |                                                                   int *
+Compilation failed
+ff88354
