@@ -93,7 +93,7 @@ int checkSorted(int arr[], int size)
 			if (arr[i] >= arr[i+1]) cont += 1;
 			else if (arr[i] <= arr[i+1])  cont -= 1;
 		}
-	if (cont < 0 && cont == -size) return -1;
+	if (cont < 0 && cont == (size * -1)) return -1;
 	else if (cont > 0 && cont == size) return 1;
 	else return 0;
 	
