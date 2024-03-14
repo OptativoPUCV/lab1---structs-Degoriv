@@ -90,8 +90,8 @@ int checkSorted(int arr[], int size)
 	int cont = 0;
 	for(int i = 0 ; i < size ; i++)
 		{
-			if (arr[i] >= arr[i+1]) cont += 1;
-			else if (arr[i] <= arr[i+1])  cont -= 1;
+			if (arr[i] <= arr[i+1]) cont += 1;
+			else if (arr[i] >= arr[i+1])  cont -= 1;
 		}
 	if (cont < 0 && cont == (size * -1)) return -1;
 	else if (cont > 0 && cont == size) return 1;
