@@ -217,3 +217,30 @@ exercises.c:52:13: error: variable ‘newArr’ set but not used [-Werror=unused
 cc1: all warnings being treated as errors
 Compilation failed
 0e0b868
+Thu 14 Mar 2024 08:57:29 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:52:13: error: array size missing in ‘newArr’
+   52 |         int newArr[];
+      |             ^~~~~~
+exercises.c:54:17: error: ‘i’ undeclared (first use in this function)
+   54 |         if (arr[i] % 2 == 0)
+      |                 ^
+exercises.c:54:17: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:59:47: error: array subscript is not an integer
+   59 |                                         newArr[newSize] = arr[i];
+      |                                               ^
+exercises.c:63:23: error: expected expression before ‘]’ token
+   63 |         return newArr[]; }
+      |                       ^
+exercises.c:52:13: error: variable ‘newArr’ set but not used [-Werror=unused-but-set-variable]
+   52 |         int newArr[];
+      |             ^~~~~~
+exercises.c:63:26: error: control reaches end of non-void function [-Werror=return-type]
+   63 |         return newArr[]; }
+      |                          ^
+cc1: all warnings being treated as errors
+Compilation failed
+d9017f4
