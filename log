@@ -81,3 +81,17 @@ exercises.c:31:13: error: unused variable ‘temp’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 8c8aa4f
+Thu 14 Mar 2024 02:49:47 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:31:13: error: unused variable ‘temp’ [-Werror=unused-variable]
+   31 |         int temp;
+      |             ^~~~
+exercises.c:33:28: error: ‘cpySize’ is used uninitialized [-Werror=uninitialized]
+   33 |         for (int i = 0 ; i < cpySize ; i++)
+      |                          ~~^~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e96815a
