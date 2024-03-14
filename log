@@ -244,3 +244,25 @@ exercises.c:63:26: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 d9017f4
+Thu 14 Mar 2024 09:25:37 PM UTC: 
+ exercises.c | 13 +++++++------
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:58:72: error: invalid operands to binary * (have ‘int *’ and ‘long unsigned int’)
+   58 |                                 newArr = realloc(newArr, (newSize + 1) * sizeof(int));
+      |                                                          ~~~~~~~~~~~~~ ^
+      |                                                                   |
+      |                                                                   int *
+exercises.c:59:39: error: array subscript is not an integer
+   59 |                                 newArr[newSize] = arr[i];
+      |                                       ^
+exercises.c:63:23: error: expected expression before ‘]’ token
+   63 |         return newArr[];
+      |                       ^
+exercises.c:64:1: error: control reaches end of non-void function [-Werror=return-type]
+   64 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+03d9738
