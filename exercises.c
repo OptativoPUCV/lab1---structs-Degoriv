@@ -74,7 +74,10 @@ ordenados de menor a mayor y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado de menor a mayor.
 */
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
-                       int result[]) {}
+                       int result[])
+{
+	
+}
 
 /*
 Ejercicio 5: Comprobación de Ordenación
@@ -82,7 +85,20 @@ Descripción: Escribe una función que tome un arreglo y su tamaño,
 y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
   0 si no está ordenado, y -1 si está ordenado en orden descendente.
 */
-int checkSorted(int arr[], int size) { return -2; }
+int checkSorted(int arr[], int size) 
+{
+	int cont = 0;
+	for(int i = 0 ; i < size ; i++)
+		{
+			if (arr[i] > arr[i+1]) cont += 1;
+			else if (arr[i] < arr[i+1])  cont -= 1;
+		}
+	if (cont < 0 && cont == -size) return -1;
+	else if (cont > 0 && cont == size) return 1;
+	else return 0;
+	
+	return -2; 
+}
 
 /*
 Ejercicio 6: Información de una Biblioteca
