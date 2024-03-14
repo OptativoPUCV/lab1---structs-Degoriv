@@ -1,1 +1,23 @@
 
+Thu 14 Mar 2024 02:47:30 PM UTC: 
+ exercises.c | 21 ++++++++++++++++++---
+ 1 file changed, 18 insertions(+), 3 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘findMax’:
+exercises.c:16:28: error: expected ‘(’ before ‘arr’
+   16 |                         if arr[i] >= mayor
+      |                            ^~~
+      |                            (
+exercises.c:16:31: error: statement with no effect [-Werror=unused-value]
+   16 |                         if arr[i] >= mayor
+      |                            ~~~^~~
+exercises.c: In function ‘reverseArray’:
+exercises.c:33:1: error: expected expression before ‘}’ token
+   33 | }
+      | ^
+exercises.c:29:13: error: unused variable ‘temp’ [-Werror=unused-variable]
+   29 |         int temp;
+      |             ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+9986333
