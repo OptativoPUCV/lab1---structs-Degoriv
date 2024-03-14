@@ -351,3 +351,14 @@ Thu 14 Mar 2024 09:34:05 PM UTC:
  tests:  0|5
 total_score: 20/70
 8d9fe1f
+Thu 14 Mar 2024 09:40:25 PM UTC: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:57:45: error: ‘temp’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   57 |                                 int *temp = realloc(temp, (*newSize + 1) * sizeof(int));
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+648c63d
