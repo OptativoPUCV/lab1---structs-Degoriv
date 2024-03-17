@@ -440,3 +440,63 @@ Fri 15 Mar 2024 12:58:14 AM UTC:
  tests:  0|5
 total_score: 20/70
 4d6ae57
+Fri 15 Mar 2024 01:36:12 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:36:38 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:36:54 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:37:05 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:39:03 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:39:07 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:39:28 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:42:44 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:43:52 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:44:18 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:48:56 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:56:15 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:56:21 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Fri 15 Mar 2024 01:56:27 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Sun 17 Mar 2024 12:24:45 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Sun 17 Mar 2024 12:24:57 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Sun 17 Mar 2024 12:25:02 AM UTC: 
+ exercises.c | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+Sun 17 Mar 2024 12:41:18 AM UTC: 
+ exercises.c | 48 ++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 46 insertions(+), 2 deletions(-)
+Sun 17 Mar 2024 12:43:52 AM UTC: 
+ exercises.c | 42 +++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 37 insertions(+), 5 deletions(-)
+ tests:  0|3
+total_score: 40/70
+369c571

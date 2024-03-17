@@ -74,10 +74,31 @@ Descripción: Escribe una función que tome dos arreglos
 ordenados de menor a mayor y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado de menor a mayor.
 */
-void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
-                       int result[])
-{
-	
+void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[]) {
+		int i = 0, j = 0, k = 0;
+
+		while (i < size1 && j < size2) {
+				if (arr1[i] < arr2[j]) {
+						result[k] = arr1[i];
+						i++;
+				} else {
+						result[k] = arr2[j];
+						j++;
+				}
+				k++;
+		}
+
+		while (i < size1) {
+				result[k] = arr1[i];
+				i++;
+				k++;
+		}
+
+		while (j < size2) {
+				result[k] = arr2[j];
+				j++;
+				k++;
+		}
 }
 
 /*
@@ -121,7 +142,14 @@ typedef struct {
 } Libro;
 
 void inicializarLibro(Libro *libro, const char *titulo, const char *nombreAutor,
-                      int anioNacimiento, int anioPublicacion) {}
+                      int anioNacimiento, int anioPublicacion) 
+{
+strcpy(libro->titulo, titulo) ;
+strcpy (libro -> autor.nombre, nombreAutor) ;
+libro -> autor.anioNacimiento = anioNacimiento;
+
+libro ->anioPublicacion = anioPublicacion;
+}
 
 /*
 Ejercicio 7: Lista enlazada de números
@@ -140,4 +168,8 @@ typedef struct nodo {
   struct nodo *siguiente; // puntero al siguiente nodo
 } Nodo;
 
-Nodo *crearListaEnlazada(int arr[], int size) { return NULL; }
+Nodo *crearListaEnlazada(int arr[], int size) 
+{
+	
+	return NULL; 
+}
